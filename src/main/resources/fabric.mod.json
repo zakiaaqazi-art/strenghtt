@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "strengthsmp",
+  "version": "${version}",
+  "name": "Strength SMP",
+  "description": "Kill players to gain attack damage. Die to lose it.",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.strengthsmp.StrengthSMP"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1"
+  }
+}
